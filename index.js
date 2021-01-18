@@ -4,13 +4,14 @@ const os = require('os')
 
 var ip = process.argv[2];
 var requests = process.argv[3];
-var cpus = os.cpus();
+// var cpus = os.cpus();
+var array = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
 var sent_requests = 0;
 var errors = 0;
 var success = 0;
 
-cpus.forEach(function() {
+array.forEach(function() {
     setInterval(function() {
         sent_requests = sent_requests + 1;
 
