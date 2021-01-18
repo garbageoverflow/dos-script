@@ -1,0 +1,14 @@
+{
+  "name": "dos-script",
+  "version": "1.0.0",
+  "description": "a simple DOS attack script",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js https://gooogle.com 5000"
+  },
+  "author": "garbageoverflow",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
